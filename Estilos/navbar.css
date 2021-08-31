@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem; 
+    background-color: rgba(0,0,0,0);
+    z-index: 2;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    height: 8rem;
+}
+
+#ul-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#ul-navbar > li {
+    text-transform: uppercase;
+    margin: 0 4rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ul-navbar > li:hover {
+    border-bottom: 2px #fff solid;
+    transition: all 0.2s ease;
+}
+
+#logo-nav{
+    height: 6rem;
+    width: 6rem;
+}
