@@ -37,3 +37,10 @@ nav{
     height: 6rem;
     width: 6rem;
 }
+
+@media only screen and (max-width: 725px) {
+    #ul-navbar > li {
+        font-size: 1.5rem;
+        margin: 1rem 2rem;
+    }
+}
