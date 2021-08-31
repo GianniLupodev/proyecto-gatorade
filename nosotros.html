@@ -1,72 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="shortcut icon" href="Imagenes/logo-nav.svg" type="image/x-icon">
+  <title> Nosotros | Gatorade </title>
+  <link rel="stylesheet" href="Estilos/header.css">
+  <link rel="stylesheet" href="Estilos/style.css">
+  <link rel="stylesheet" href="Estilos/navbar.css">
+  <link rel="stylesheet" href="Estilos/footer.css">
+  <link rel="stylesheet" href="Estilos/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/8fb73b6fbd.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Kanit:ital,wght@1,100&family=Oswald:wght@600&family=Poppins&display=swap"
+    rel="stylesheet">
 </head>
 <body>
-    <header>
-
-    </header>
     <nav>
-        <img src="Imagenes/logo-nav.svg" alt="imagen logo Gatorade">
-        <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Carro</a>
-        </li>
-      </ul>
-    </nav>
+        <img src="Imagenes/logo-nav.svg" alt="imagen logo Gatorade" id="logo-nav" >
+        <ul id="ul-navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <header id="header" style="background-image: url(/Imagenes/historia-nosotros.png);">
+        <div id="title-conteiner">
+          <div>
+            <p class="title-header" id="title-primario">NOSOTROS, NUESTRA HISTORIA</p>
+          </div>
+        </div>
+      </header>
     <main>
-        <img src="Imagenes/historia-nosotros.png" alt="historia de Gatorade">
-        <h1>HISTORIA</h1>
-    </main>
-    <section>
-        <div>
+        <div id="nosotros-conteiner">
             <div>
-                <h2> NACIDO EN EL LABORATORIO</h2>
-                <p>En el verano de 1965 un asistente del entrenador de la Universidad de Florida, obsesionado por alcanzar el máximo rendimiento de su equipo, "Los Gators de Florida", se reunió con un grupo de científicos para encontrar la respuesta a por qué la mayoría de sus jugadores eran perjudicados por el calor. El prestigioso grupo de investigadores encabezados por el Dr. Robert Cade, Dr. Dana Shires, Dr. H. James Free y Dr. Alejandro De Quesada, comenzaron a investigar y encontraron la respuesta al problema. Descubrieron dos factores clave que estaban afectando a los Gators, por un lado los fluidos y electrolitos que los jugadores perdían mediante la sudoración que no eran remplazados y además, las grandes cantidades de carbohidratos que sus cuerpos usaban sin ser recuperados.Estos descubrimientos fueron llevados al laboratorio y formularon una bebida que pudiera equilibrar los carbohidratos y los electrolitos y que ayudara a los deportistas a recuperar los componentes esenciales que se pierden mediante la transpiración y la exigencia física. "Gator's aid" (la ayuda de los Gators), era el nombre con el que los demás equipos denominaban a esta bebida, sin saber que estaban gestando una idea que se convertiría en marca. Así fue cómo surgió "Gatorade ®".</p>
+                <h2 class="nosotros-title"><img src="/Imagenes/logo-nav.svg"/> NACIDO EN EL LABORATORIO</h2>
+                <p class="nosotros-text">En el verano de 1965 un asistente del entrenador de la Universidad de Florida, obsesionado por alcanzar el máximo rendimiento de su equipo, "Los Gators de Florida", se reunió con un grupo de científicos para encontrar la respuesta a por qué la mayoría de sus jugadores eran perjudicados por el calor. El prestigioso grupo de investigadores encabezados por el Dr. Robert Cade, Dr. Dana Shires, Dr. H. James Free y Dr. Alejandro De Quesada, comenzaron a investigar y encontraron la respuesta al problema. Descubrieron dos factores clave que estaban afectando a los Gators, por un lado los fluidos y electrolitos que los jugadores perdían mediante la sudoración que no eran remplazados y además, las grandes cantidades de carbohidratos que sus cuerpos usaban sin ser recuperados.Estos descubrimientos fueron llevados al laboratorio y formularon una bebida que pudiera equilibrar los carbohidratos y los electrolitos y que ayudara a los deportistas a recuperar los componentes esenciales que se pierden mediante la transpiración y la exigencia física. "Gator's aid" (la ayuda de los Gators), era el nombre con el que los demás equipos denominaban a esta bebida, sin saber que estaban gestando una idea que se convertiría en marca. Así fue cómo surgió "Gatorade ®".</p>
             </div>
             <div>
-                <h2>PROBADO EN EL CAMPO DE JUEGO</h2>
-                <p>La investigación había sido todo un éxito, al igual que la creación de Gatorade®. Dentro del campo de juego, los Gators confirmaban este éxito y comenzaron a escribir una leyenda.
+                <h2 class="nosotros-title"><img src="/Imagenes/logo-nav.svg"/> PROBADO EN EL CAMPO DE JUEGO</h2>
+                <p class="nosotros-text">La investigación había sido todo un éxito, al igual que la creación de Gatorade®. Dentro del campo de juego, los Gators confirmaban este éxito y comenzaron a escribir una leyenda.
                     Los resultados fueron excelentes y el equipo se volvió imparable. Comenzaron a ganar, venciendo a un gran número de poderosos oponentes, incluso en condiciones de calor agobiante. Finalizaron la temporada 7-4 superando todo tipo de expectativas. Durante aquella temporada, los Gators batían récords con sus victorias y su gran resistencia física. Su rendimiento los llevó a ser conocidos como "el equipo del segundo tiempo", porque era entonces cuando lograban derrotar a sus oponentes. El entrenador descubrió que sus jugadores tenían ventajas físicas al tomar la bebida, mostrando menor deshidratación y mayores niveles de rendimiento
                     El éxito del equipo fue aún mayor en la temporada de 1966 cuando los Gators consiguieron ganar por primera vez en la historia el Orange Bowl, quedando para siempre en la gloria de la escuela y haciendo de Gatorade® la bebida oficial de este triunfo histórico. </p>
             </div>
             <div>
-                <h2>DE LA LIGA ORANGE BOWL AL SUPER BOWL</h2>
-                <p>El nombre de Gatorade® comenzó a circular y tanto la universidad de Richmond como la de Miami en Ohio comenzaron a pedir Gatorade® para sus equipos. Y así otras universidades de todo Estados Unidos que tenían programas de fútbol americano comenzaron a hacer pedidos de Gatorade. "Jugar sin Gatorade® era como jugar con un jugador menos en el equipo".Hoy Gatorade® es usado por cientos de universidades de primera división como la bebida deportiva oficial de los deportes intercolegiales  tanto para hombres como para mujeres, así como por los mejores deportistas del mundo.</p>
+                <h2 class="nosotros-title"><img src="/Imagenes/logo-nav.svg"/> DE LA LIGA ORANGE BOWL AL SUPER BOWL</h2>
+                <p class="nosotros-text">El nombre de Gatorade® comenzó a circular y tanto la universidad de Richmond como la de Miami en Ohio comenzaron a pedir Gatorade® para sus equipos. Y así otras universidades de todo Estados Unidos que tenían programas de fútbol americano comenzaron a hacer pedidos de Gatorade. "Jugar sin Gatorade® era como jugar con un jugador menos en el equipo".Hoy Gatorade® es usado por cientos de universidades de primera división como la bebida deportiva oficial de los deportes intercolegiales  tanto para hombres como para mujeres, así como por los mejores deportistas del mundo.</p>
             </div>
             <div>
-                <h2>FUNDANDO LA CIENCIA COMO CAMINO A LA VICTORIA</h2>
-                <p>Dos décadas después de que el Dr. Cade y su equipo trabajaran intensamente para desarrollar la fórmula de hidratación óptima que se conocería como Gatorade, el Instituto de Ciencia Deportiva Gatorade® fue fundado en Barrington, Illinois. Este instituto fue creado para llevar a cabo investigaciones científicas en las áreas de la ciencia del ejercicio, hidratación y nutrición deportiva.Tres años más tarde, el laboratorio se expandió para proveer pruebas avanzadas para atletas, con el objetivo de desarrollar nuevos productos y sabores de Gatorade®. También desarrollaron materiales educativos para los profesionales del deporte y la salud alrededor del mundo. Gatorade® es también la bebida deportiva oficial de la NBA, AVP y PGA, MLB, del torneo de fútbol mexicano, y está presente en el 80% de las carreras en México.Es usado por atletas profesionales y amateurs, así como por los equipos profesionales.</p>
+                <h2 class="nosotros-title"><img src="/Imagenes/logo-nav.svg"/> FUNDANDO LA CIENCIA COMO CAMINO A LA VICTORIA</h2>
+                <p class="nosotros-text">Dos décadas después de que el Dr. Cade y su equipo trabajaran intensamente para desarrollar la fórmula de hidratación óptima que se conocería como Gatorade, el Instituto de Ciencia Deportiva Gatorade® fue fundado en Barrington, Illinois. Este instituto fue creado para llevar a cabo investigaciones científicas en las áreas de la ciencia del ejercicio, hidratación y nutrición deportiva.Tres años más tarde, el laboratorio se expandió para proveer pruebas avanzadas para atletas, con el objetivo de desarrollar nuevos productos y sabores de Gatorade®. También desarrollaron materiales educativos para los profesionales del deporte y la salud alrededor del mundo. Gatorade® es también la bebida deportiva oficial de la NBA, AVP y PGA, MLB, del torneo de fútbol mexicano, y está presente en el 80% de las carreras en México.Es usado por atletas profesionales y amateurs, así como por los equipos profesionales.</p>
             </div>
             <div>
-                <h2>ALCANZANDO NUEVOS RETOS</h2>
-                <p>Después de años de cuidadosa investigación por el equipo científico del GSSI en las necesidades de los atletas para mejorar su rendimiento deportivo, Gatorade® lanzó en 2001 una nueva  plataforma llamada Gatorade® Endurance, una línea de nutrición deportiva para atletas profesionales.La línea de nutrición incluía: Gatorade® Energy Drink, Gatorade® Barra de energía y una malteada Gatorade®. Cuatro años más tarde, después de estudiar a los atletas de resistencia, el GSSI desarrolló una nueva fórmula de resistencia, con una mayor concentración de sodio, ya que los electrolitos son la clave para apagar la sed de los atletas y se agregaron otros 4 elementos contenidos en el sudor, por lo que Gatorade® Endurance era una fórmula dirigida a los atletas enfocados en entrenamientos de resistencia.</p>
+                <h2 class="nosotros-title"><img src="/Imagenes/logo-nav.svg"/> ALCANZANDO NUEVOS RETOS</h2>
+                <p class="nosotros-text">Después de años de cuidadosa investigación por el equipo científico del GSSI en las necesidades de los atletas para mejorar su rendimiento deportivo, Gatorade® lanzó en 2001 una nueva  plataforma llamada Gatorade® Endurance, una línea de nutrición deportiva para atletas profesionales.La línea de nutrición incluía: Gatorade® Energy Drink, Gatorade® Barra de energía y una malteada Gatorade®. Cuatro años más tarde, después de estudiar a los atletas de resistencia, el GSSI desarrolló una nueva fórmula de resistencia, con una mayor concentración de sodio, ya que los electrolitos son la clave para apagar la sed de los atletas y se agregaron otros 4 elementos contenidos en el sudor, por lo que Gatorade® Endurance era una fórmula dirigida a los atletas enfocados en entrenamientos de resistencia.</p>
             </div>
-            <div>EL PRESENTE Y EL FUTURO SON NUESTROS DESAFÍOS</div>
-            <p>Luego de años de cuidadosas investigaciones en el GSSI sobre las necesidades de los atletas de alto rendimiento, Gatorade® lanzó en 2001 una línea de productos nutricionales deportivos de elite. Estos productos incluyen Gatorade® Energy Drink (bebida energizante), Gatorade Energy Bar (barra energizante) y Gatorade® Nutrition Shake (batido nutricional).Cuatro años más tarde, luego de estudiar la resistencia de los atletas, el GSSI desarrolló el Gatorade® Endurance Formula (Fórmula para Resistencia). Con una mayor concentración de sodio, el electrolito que quita la sed, y los cuatro electrolitos que más se pierden durante la transpiración. La fórmula de resistencia de Gatorade® se está constituyendo rápidamente en un pilar de los circuitos de carreras alrededor del mundo.</p>
         </div>
-    </section>
+    </main>
     <footer>
-        <div>
-            <img src="Imagenes/logo-nav.svg" alt="logo Gatorade">    
-            <p>© 2021 Company, Inc</p>
-            <button> IMG TW</button>
-            <button> IMG TW</button>
-            <button> IMG TW</button>
-        </div>    
-    </footer>
+        <div class="footer-conteiner">
+          <div class="footer-conteiner">
+            <img src="Imagenes/logo-nav.svg" alt="logo Gatorade" class="img-footer">
+            <p>© 2021 Designed by Gianni Lupo, Inc. Todos los derechos reservados.</p>
+          </div>
+          <div class="button-conteiner">
+            <button class="css-button-shadow-border-sliding--black"><i class="fas fa-hashtag"></i></button>
+            <button class="css-button-shadow-border-sliding--black"><i class="fab fa-facebook"></i></button>
+            <button class="css-button-shadow-border-sliding--black"><i class="fab fa-whatsapp-square"></i></button>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
